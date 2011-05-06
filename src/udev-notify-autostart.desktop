@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Encoding=UTF-8
+Name=Hardware Notifications
+Name[bg]=Хардуерни известявания
+Comment=Displays notification about newly plugged hardware
+Comment[bg]=Показване на известявание при включване на нов хардуер
+Icon=gnome-dev-memory
+Exec=udev-notify
+Terminal=false
+Type=Application
+Categories=
+OnlyShowIn=GNOME;XFCE;
+X-GNOME-Autostart-Phase=Desktop
+X-GNOME-Autostart-Notify=false
+

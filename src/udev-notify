@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /usr/share/udev-notify/
+./udev-notify.py
+

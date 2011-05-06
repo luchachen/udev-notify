@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: udev-notify\n"
+"Report-Msgid-Bugs-To: lfu.project@gmail.com\n"
+"POT-Creation-Date: 2011-05-06 18:38+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Krasimir S. Stefanov <lokiisyourmaster@gmail.com>\n"
+"Language-Team: SKSS <lfu.project@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+
+#: src/udev-notify.py:21
+msgid "Display verbose output on STDOUT"
+msgstr "Display verbose output on STDOUT"
+
+#: src/udev-notify.py:27
+msgid "Cannot initialize libnotify"
+msgstr "Cannot initialize libnotify"
+
+#: src/udev-notify.py:32
+msgid "CD-ROM Drive"
+msgstr "CD-ROM Drive"
+
+#: src/udev-notify.py:41
+msgid "Multimedia Player"
+msgstr "Multimedia Player"
+
+#: src/udev-notify.py:61
+#: src/udev-notify.py:73
+#: src/udev-notify.py:84
+#: src/udev-notify.py:103
+#: src/udev-notify.py:115
+msgid "USB Storage Device"
+msgstr "USB Storage Device"
+
+#: src/udev-notify.py:95
+msgid "SD/MMC Memory"
+msgstr "SD/MMC Memory"
+
+#: src/udev-notify.py:125
+msgid "WiFi Device"
+msgstr "WiFi Device"
+
+#: src/udev-notify.py:133
+msgid "WebCam / TV Tuner"
+msgstr "WebCam / TV Tuner"
+
+#: src/udev-notify.py:140
+msgid "Mouse"
+msgstr "Mouse"
+
+#: src/udev-notify.py:149
+msgid "Game Controller"
+msgstr "Game Controller"
+
+#: src/udev-notify.py:158
+msgid "Sound Card"
+msgstr "Sound Card"
+
+#: src/udev-notify.py:167
+msgid "USB Modem"
+msgstr "USB Modem"
+
+#: src/udev-notify.py:175
+msgid "Modem"
+msgstr "Modem"
+
+#: src/udev-notify.py:183
+msgid "PDA Device"
+msgstr "PDA Device"
+
+#: src/udev-notify.py:191
+msgid "Keyboard"
+msgstr "Keyboard"
+
+#: src/udev-notify.py:201
+msgid "Digital Camera"
+msgstr "Digital Camera"
+
+#: src/udev-notify.py:209
+msgid "Network Device"
+msgstr "Network Device"
+
+#: src/udev-notify.py:217
+msgid "USB Network Device"
+msgstr "USB Network Device"
+
+#: src/udev-notify.py:225
+msgid "USB Device"
+msgstr "USB Device"
+
+#: src/udev-notify.py:306
+#: src/udev-notify.py:312
+msgid "Device recognized"
+msgstr "Device recognized"
+
+#: src/udev-notify.py:320
+#: src/udev-notify.py:326
+msgid "Device removed"
+msgstr "Device removed"
+

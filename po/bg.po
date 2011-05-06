@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: udev-notify\n"
+"Report-Msgid-Bugs-To: lfu.project@gmail.com\n"
+"POT-Creation-Date: 2011-05-06 18:38+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Krasimir S. Stefanov <lokiisyourmaster@gmail.com>\n"
+"Language-Team: SKSS <lfu.project@gmail.com>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+
+#: src/udev-notify.py:21
+msgid "Display verbose output on STDOUT"
+msgstr "Показване на подробна информация в STDOUT"
+
+#: src/udev-notify.py:27
+msgid "Cannot initialize libnotify"
+msgstr "Не може да се инициализира libnotify"
+
+#: src/udev-notify.py:32
+msgid "CD-ROM Drive"
+msgstr "CD-ROM Устройство"
+
+#: src/udev-notify.py:41
+msgid "Multimedia Player"
+msgstr "Мултимедиен Плейър"
+
+#: src/udev-notify.py:61
+#: src/udev-notify.py:73
+#: src/udev-notify.py:84
+#: src/udev-notify.py:103
+#: src/udev-notify.py:115
+msgid "USB Storage Device"
+msgstr "USB Устройство за съхранение"
+
+#: src/udev-notify.py:95
+msgid "SD/MMC Memory"
+msgstr "SD/MMC Памет"
+
+#: src/udev-notify.py:125
+msgid "WiFi Device"
+msgstr "WiFi устройство"
+
+#: src/udev-notify.py:133
+msgid "WebCam / TV Tuner"
+msgstr "WEB Камера / ТВ Тунер"
+
+#: src/udev-notify.py:140
+msgid "Mouse"
+msgstr "Мишка"
+
+#: src/udev-notify.py:149
+msgid "Game Controller"
+msgstr "Игрови контролер"
+
+#: src/udev-notify.py:158
+msgid "Sound Card"
+msgstr "Звукова Карта"
+
+#: src/udev-notify.py:167
+msgid "USB Modem"
+msgstr "USB Модем"
+
+#: src/udev-notify.py:175
+msgid "Modem"
+msgstr "Модем"
+
+#: src/udev-notify.py:183
+msgid "PDA Device"
+msgstr "PDA Устройство"
+
+#: src/udev-notify.py:191
+msgid "Keyboard"
+msgstr "Клавиатура"
+
+#: src/udev-notify.py:201
+msgid "Digital Camera"
+msgstr "Цифрова Камера"
+
+#: src/udev-notify.py:209
+msgid "Network Device"
+msgstr "Мрежово Устройство"
+
+#: src/udev-notify.py:217
+msgid "USB Network Device"
+msgstr "USB Мрежово Устройство"
+
+#: src/udev-notify.py:225
+msgid "USB Device"
+msgstr "USB Устройство"
+
+#: src/udev-notify.py:306
+#: src/udev-notify.py:312
+msgid "Device recognized"
+msgstr "Добавено е устройство"
+
+#: src/udev-notify.py:320
+#: src/udev-notify.py:326
+msgid "Device removed"
+msgstr "Премахнато е устройство"
+
