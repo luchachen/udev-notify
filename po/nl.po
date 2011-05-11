@@ -1,68 +1,70 @@
+# Dutch translation for udev-notify
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the udev-notify package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: udev-notify\n"
-"Report-Msgid-Bugs-To: lfu.project@gmail.com\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-05-06 18:38+0300\n"
-"PO-Revision-Date: 2011-05-07 04:09+0000\n"
-"Last-Translator: lokster <lokiisyourmaster@gmail.com>\n"
-"Language-Team: SKSS <lfu.project@gmail.com>\n"
+"PO-Revision-Date: 2011-05-09 20:56+0000\n"
+"Last-Translator: cumulus007 <cumulus0007@gmail.com>\n"
+"Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2011-05-11 05:46+0000\n"
 "X-Generator: Launchpad (build 12959)\n"
-"X-Poedit-Country: UNITED STATES\n"
-"Language: en\n"
-"X-Poedit-Language: English\n"
 
 #: src/udev-notify.py:21
 msgid "Display verbose output on STDOUT"
-msgstr "Display verbose output on STDOUT"
+msgstr "Gedetailleerde uitvoer tonen op STDOUT"
 
 #: src/udev-notify.py:27
 msgid "Cannot initialize libnotify"
-msgstr "Cannot initialize libnotify"
+msgstr "Kan libnotify niet laden"
 
 #: src/udev-notify.py:32
 msgid "CD-ROM Drive"
-msgstr "CD-ROM Drive"
+msgstr "Cd-rom-speler"
 
 #: src/udev-notify.py:41
 msgid "Multimedia Player"
-msgstr "Multimedia Player"
+msgstr "Multimediaspeler"
 
 #: src/udev-notify.py:61 src/udev-notify.py:73 src/udev-notify.py:84
 #: src/udev-notify.py:103 src/udev-notify.py:115
 msgid "USB Storage Device"
-msgstr "USB Storage Device"
+msgstr "USB-opslagapparaat"
 
 #: src/udev-notify.py:95
 msgid "SD/MMC Memory"
-msgstr "SD/MMC Memory"
+msgstr "SD-/MMC-geheugen"
 
 #: src/udev-notify.py:125
 msgid "WiFi Device"
-msgstr "WiFi Device"
+msgstr "WiFi-apparaat"
 
 #: src/udev-notify.py:133
 msgid "WebCam / TV Tuner"
-msgstr "WebCam / TV Tuner"
+msgstr "Webcam/tv-kaart"
 
 #: src/udev-notify.py:140
 msgid "Mouse"
-msgstr "Mouse"
+msgstr "Muis"
 
 #: src/udev-notify.py:149
 msgid "Game Controller"
-msgstr "Game Controller"
+msgstr "Gamecontroller"
 
 #: src/udev-notify.py:158
 msgid "Sound Card"
-msgstr "Sound Card"
+msgstr "Geluidskaart"
 
 #: src/udev-notify.py:167
 msgid "USB Modem"
-msgstr "USB Modem"
+msgstr "USB-modem"
 
 #: src/udev-notify.py:175
 msgid "Modem"
@@ -70,32 +72,32 @@ msgstr "Modem"
 
 #: src/udev-notify.py:183
 msgid "PDA Device"
-msgstr "PDA Device"
+msgstr "PDA"
 
 #: src/udev-notify.py:191
 msgid "Keyboard"
-msgstr "Keyboard"
+msgstr "Toetsenbord"
 
 #: src/udev-notify.py:201
 msgid "Digital Camera"
-msgstr "Digital Camera"
+msgstr "Digitale camera"
 
 #: src/udev-notify.py:209
 msgid "Network Device"
-msgstr "Network Device"
+msgstr "Netwerkapparaat"
 
 #: src/udev-notify.py:217
 msgid "USB Network Device"
-msgstr "USB Network Device"
+msgstr "USB-netwerkapparaat"
 
 #: src/udev-notify.py:225
 msgid "USB Device"
-msgstr "USB Device"
+msgstr "USB-apparaat"
 
 #: src/udev-notify.py:306 src/udev-notify.py:312
 msgid "Device recognized"
-msgstr "Device recognized"
+msgstr "Apparaat herkend"
 
 #: src/udev-notify.py:320 src/udev-notify.py:326
 msgid "Device removed"
-msgstr "Device removed"
+msgstr "Apparaat verwijderd"

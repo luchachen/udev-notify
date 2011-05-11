@@ -1,101 +1,103 @@
+# Russian translation for udev-notify
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the udev-notify package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: udev-notify\n"
-"Report-Msgid-Bugs-To: lfu.project@gmail.com\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-05-06 18:38+0300\n"
-"PO-Revision-Date: 2011-05-07 04:09+0000\n"
-"Last-Translator: lokster <lokiisyourmaster@gmail.com>\n"
-"Language-Team: SKSS <lfu.project@gmail.com>\n"
+"PO-Revision-Date: 2011-05-09 21:55+0000\n"
+"Last-Translator: MrFree <f1.mrfree@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2011-05-11 05:46+0000\n"
 "X-Generator: Launchpad (build 12959)\n"
-"X-Poedit-Country: UNITED STATES\n"
-"Language: en\n"
-"X-Poedit-Language: English\n"
 
 #: src/udev-notify.py:21
 msgid "Display verbose output on STDOUT"
-msgstr "Display verbose output on STDOUT"
+msgstr "Показать подробный вывод STDOUT"
 
 #: src/udev-notify.py:27
 msgid "Cannot initialize libnotify"
-msgstr "Cannot initialize libnotify"
+msgstr "Невозможно инициализировать libnotify"
 
 #: src/udev-notify.py:32
 msgid "CD-ROM Drive"
-msgstr "CD-ROM Drive"
+msgstr "Дисковод CD-ROM"
 
 #: src/udev-notify.py:41
 msgid "Multimedia Player"
-msgstr "Multimedia Player"
+msgstr "Мультимедийный проигрыватель"
 
 #: src/udev-notify.py:61 src/udev-notify.py:73 src/udev-notify.py:84
 #: src/udev-notify.py:103 src/udev-notify.py:115
 msgid "USB Storage Device"
-msgstr "USB Storage Device"
+msgstr "USB-устройство хранения данных"
 
 #: src/udev-notify.py:95
 msgid "SD/MMC Memory"
-msgstr "SD/MMC Memory"
+msgstr "Карты памяти SD/MMC"
 
 #: src/udev-notify.py:125
 msgid "WiFi Device"
-msgstr "WiFi Device"
+msgstr "Беспроводное устройство WiFi"
 
 #: src/udev-notify.py:133
 msgid "WebCam / TV Tuner"
-msgstr "WebCam / TV Tuner"
+msgstr "Вэб-камера/ТВ-тюнер"
 
 #: src/udev-notify.py:140
 msgid "Mouse"
-msgstr "Mouse"
+msgstr "Мышь"
 
 #: src/udev-notify.py:149
 msgid "Game Controller"
-msgstr "Game Controller"
+msgstr "Игровой контроллер"
 
 #: src/udev-notify.py:158
 msgid "Sound Card"
-msgstr "Sound Card"
+msgstr "Звуковая карта"
 
 #: src/udev-notify.py:167
 msgid "USB Modem"
-msgstr "USB Modem"
+msgstr "USB Модем"
 
 #: src/udev-notify.py:175
 msgid "Modem"
-msgstr "Modem"
+msgstr "Модем"
 
 #: src/udev-notify.py:183
 msgid "PDA Device"
-msgstr "PDA Device"
+msgstr "КПК"
 
 #: src/udev-notify.py:191
 msgid "Keyboard"
-msgstr "Keyboard"
+msgstr "Клавиатура"
 
 #: src/udev-notify.py:201
 msgid "Digital Camera"
-msgstr "Digital Camera"
+msgstr "Цифровая камера"
 
 #: src/udev-notify.py:209
 msgid "Network Device"
-msgstr "Network Device"
+msgstr "Сетевое устройство"
 
 #: src/udev-notify.py:217
 msgid "USB Network Device"
-msgstr "USB Network Device"
+msgstr "Сетевое USB-устройство"
 
 #: src/udev-notify.py:225
 msgid "USB Device"
-msgstr "USB Device"
+msgstr "Устройство USB"
 
 #: src/udev-notify.py:306 src/udev-notify.py:312
 msgid "Device recognized"
-msgstr "Device recognized"
+msgstr "Устройство подключено"
 
 #: src/udev-notify.py:320 src/udev-notify.py:326
 msgid "Device removed"
-msgstr "Device removed"
+msgstr "Устройство удалено"
