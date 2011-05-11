@@ -10,7 +10,6 @@ Exec=udev-notify
 Terminal=false
 Type=Application
 Categories=
-OnlyShowIn=GNOME;XFCE;
-X-GNOME-Autostart-Phase=Desktop
-X-GNOME-Autostart-Notify=false
+OnlyShowIn=GNOME;XFCE;KDE;
+
 

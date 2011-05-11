@@ -235,7 +235,8 @@ def cleanstr_cb(m):
     return unichr(int(eval('0'+m.group(1))))
 
 def cleanstr(text):
-    return re.sub(r'\\(x(\d{2}))', cleanstr_cb, text).encode('utf-8').strip()
+    text = re.sub(r'\\(x([a-f0-9]{2}))', cleanstr_cb, text).encode('utf-8').strip()
+    return text
 
 def detect_device(device):
     if VERBOSE:
