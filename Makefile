@@ -1,6 +1,6 @@
 export SHELL = sh
 PACKAGE = udev-notify
-VERSION = 0.1.1
+VERSION = 0.1.2
 COPYRIGHTYEAR = 2011
 AUTHOR = USU Team
 EMAIL = lfu.project@gmail.com

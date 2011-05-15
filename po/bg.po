@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: udev-notify\n"
 "Report-Msgid-Bugs-To: lfu.project@gmail.com\n"
-"POT-Creation-Date: 2011-05-06 18:38+0300\n"
-"PO-Revision-Date: 2011-05-07 04:07+0000\n"
-"Last-Translator: lokster <lokiisyourmaster@gmail.com>\n"
+"POT-Creation-Date: 2011-05-15 13:42+0300\n"
+"PO-Revision-Date: 2011-05-15 13:43+0200\n"
+"Last-Translator: Krasimir S. Stefanov <lokiisyourmaster@gmail.com>\n"
 "Language-Team: SKSS <lfu.project@gmail.com>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2011-05-11 05:46+0000\n"
 "X-Generator: Launchpad (build 12959)\n"
 "X-Poedit-Country: BULGARIA\n"
-"Language: bg\n"
 "X-Poedit-Language: Bulgarian\n"
 
 #: src/udev-notify.py:21
@@ -31,71 +31,79 @@ msgstr "CD-ROM Устройство"
 msgid "Multimedia Player"
 msgstr "Мултимедиен Плейър"
 
-#: src/udev-notify.py:61 src/udev-notify.py:73 src/udev-notify.py:84
-#: src/udev-notify.py:103 src/udev-notify.py:115
+#: src/udev-notify.py:60
+#: src/udev-notify.py:71
+#: src/udev-notify.py:82
+#: src/udev-notify.py:107
+#: src/udev-notify.py:118
 msgid "USB Storage Device"
 msgstr "USB Устройство за съхранение"
 
-#: src/udev-notify.py:95
+#: src/udev-notify.py:93
 msgid "SD/MMC Memory"
 msgstr "SD/MMC Памет"
 
-#: src/udev-notify.py:125
+#: src/udev-notify.py:100
+msgid "Memory Stick"
+msgstr "Memory Stick"
+
+#: src/udev-notify.py:128
 msgid "WiFi Device"
 msgstr "WiFi устройство"
 
-#: src/udev-notify.py:133
+#: src/udev-notify.py:136
 msgid "WebCam / TV Tuner"
 msgstr "WEB Камера / ТВ Тунер"
 
-#: src/udev-notify.py:140
+#: src/udev-notify.py:143
 msgid "Mouse"
 msgstr "Мишка"
 
-#: src/udev-notify.py:149
+#: src/udev-notify.py:152
 msgid "Game Controller"
 msgstr "Игрови контролер"
 
-#: src/udev-notify.py:158
+#: src/udev-notify.py:161
 msgid "Sound Card"
 msgstr "Звукова Карта"
 
-#: src/udev-notify.py:167
+#: src/udev-notify.py:170
 msgid "USB Modem"
 msgstr "USB Модем"
 
-#: src/udev-notify.py:175
+#: src/udev-notify.py:178
 msgid "Modem"
 msgstr "Модем"
 
-#: src/udev-notify.py:183
+#: src/udev-notify.py:186
 msgid "PDA Device"
 msgstr "PDA Устройство"
 
-#: src/udev-notify.py:191
+#: src/udev-notify.py:194
 msgid "Keyboard"
 msgstr "Клавиатура"
 
-#: src/udev-notify.py:201
+#: src/udev-notify.py:203
 msgid "Digital Camera"
 msgstr "Цифрова Камера"
 
-#: src/udev-notify.py:209
+#: src/udev-notify.py:211
 msgid "Network Device"
 msgstr "Мрежово Устройство"
 
-#: src/udev-notify.py:217
+#: src/udev-notify.py:219
 msgid "USB Network Device"
 msgstr "USB Мрежово Устройство"
 
-#: src/udev-notify.py:225
+#: src/udev-notify.py:227
 msgid "USB Device"
 msgstr "USB Устройство"
 
-#: src/udev-notify.py:306 src/udev-notify.py:312
+#: src/udev-notify.py:308
 msgid "Device recognized"
 msgstr "Добавено е устройство"
 
-#: src/udev-notify.py:320 src/udev-notify.py:326
+#: src/udev-notify.py:315
 msgid "Device removed"
 msgstr "Премахнато е устройство"
+

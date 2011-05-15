@@ -46,7 +46,6 @@ devices = [
             'ID_MEDIA_PLAYER': '*',
         }
     },
-    
     #{
     #    'type': _('Disk Partition'),
     #    'icon': 'drive-removable-media',
@@ -58,7 +57,7 @@ devices = [
     #    }
     #},
     {
-        'type': _('USB Storage Device'), # MemoryStick
+        'type': _('USB Storage Device'), # MemoryStick Reader?
         'icon': 'gnome-dev-media-ms',
         'detection': {
             'DEVTYPE':'disk',
@@ -68,9 +67,8 @@ devices = [
             'ID_DRIVE_FLASH_MS' : '1'
         }
     },
-            
     {
-        'type': _('USB Storage Device'), #SmartMedia
+        'type': _('USB Storage Device'), #SmartMedia Reader?
         'icon': 'gnome-dev-media-sm',
         'detection': {
             'DEVTYPE':'disk',
@@ -81,7 +79,7 @@ devices = [
         }
     },
     {
-        'type': _('USB Storage Device'), #CompatFlash
+        'type': _('USB Storage Device'), #CompatFlash Reader?
         'icon': 'gnome-dev-media-cf',
         'detection': {
             'DEVTYPE':'disk',
@@ -92,15 +90,21 @@ devices = [
         }
     },      
     {
-        'type': _('SD/MMC Memory'), #SD Card
+        'type': _('SD/MMC Memory'),
         'icon': 'gnome-dev-media-sdmmc',
         'detection': {
             'SUBSYSTEM':'mmc'
         }
     },          
-          
     {
-        'type': _('USB Storage Device'), #SD Card
+        'type': _('Memory Stick'),
+        'icon': 'gnome-dev-media-ms',
+        'detection': {
+            'SUBSYSTEM':'memstick'
+        }
+    },          
+    {
+        'type': _('USB Storage Device'), #SD Card Reader?
         'icon': 'gnome-dev-media-sdmmc',
         'detection': {
             'DEVTYPE':'disk',
@@ -110,7 +114,6 @@ devices = [
             'ID_DRIVE_FLASH_SD' : '1'
         }
     },          
-          
     {
         'type': _('USB Storage Device'),
         'icon': 'drive-removable-media',
@@ -189,14 +192,13 @@ devices = [
     },    
     {
         'type': _('Keyboard'),
-        'icon': 'mouse',
+        'icon': 'gnome-dev-keyboard',
         'detection': {
             'ID_CLASS': 'kbd',
             'ID_TYPE': 'hid',
             'SUBSYSTEM': 'input'
         }
     },
-    
     {
         'type': _('Digital Camera'),
         'icon': 'camera-photo',
@@ -302,35 +304,20 @@ for action, device in monitor:
     detected = detect_device(device)
     if detected != None:
         if device['ACTION'] == 'add':
-            if notification == None:
-                notification = pynotify.Notification(
-                    _('Device recognized')
-                    , detected['name']
-                    , detected['icon']
-                )
-            else:
-                notification.update(
-                    _('Device recognized')
-                    , detected['name']
-                    , detected['icon']
-                )
-            notification.show()    
+            notification = pynotify.Notification(
+                _('Device recognized')
+                , detected['name']
+                , detected['icon']
+            )
+            notification.show()
         elif device['ACTION'] == 'remove':
-            if notification == None:
-                notification = pynotify.Notification(
-                    _('Device removed')
-                    , detected['name']
-                    , detected['icon']
-                )
-            else:
-                notification.update(
-                    _('Device removed')
-                    , detected['name']
-                    , detected['icon']
-                )
-            notification.show() 
-    notification = None  
+            notification = pynotify.Notification(
+                _('Device removed')
+                , detected['name']
+                , detected['icon']
+            )
+            notification.show()
 sys.exit(0)
 
-# TODO: printer, scanner, ??
+# TODO: printer, scanner, other types of flash memory, ??
 
