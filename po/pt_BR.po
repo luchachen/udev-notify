@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: udev-notify\n"
 "Report-Msgid-Bugs-To: lfu.project@gmail.com\n"
 "POT-Creation-Date: 2011-05-15 13:42+0300\n"
-"PO-Revision-Date: 2011-05-15 13:42+0200\n"
-"Last-Translator: Krasimir S. Stefanov <lokiisyourmaster@gmail.com>\n"
+"PO-Revision-Date: 2011-05-16 00:28+0000\n"
+"Last-Translator: lokster <lokiisyourmaster@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
-"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-05-11 05:46+0000\n"
+"X-Launchpad-Export-Date: 2011-05-16 05:38+0000\n"
 "X-Generator: Launchpad (build 12959)\n"
+"Language: pt_BR\n"
 
 #: src/udev-notify.py:21
 msgid "Display verbose output on STDOUT"
@@ -34,11 +34,8 @@ msgstr "Unidade de CD-ROM"
 msgid "Multimedia Player"
 msgstr "Reprodutor de multimídia"
 
-#: src/udev-notify.py:60
-#: src/udev-notify.py:71
-#: src/udev-notify.py:82
-#: src/udev-notify.py:107
-#: src/udev-notify.py:118
+#: src/udev-notify.py:60 src/udev-notify.py:71 src/udev-notify.py:82
+#: src/udev-notify.py:107 src/udev-notify.py:118
 msgid "USB Storage Device"
 msgstr "Dispositivo de armazenamento USB"
 
@@ -109,4 +106,3 @@ msgstr "Dispositivo reconhecido"
 #: src/udev-notify.py:315
 msgid "Device removed"
 msgstr "Dispositivo removido"
-
