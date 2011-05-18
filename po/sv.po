@@ -1,0 +1,107 @@
+# Swedish translation for udev-notify
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the udev-notify package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: udev-notify\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-05-15 13:42+0300\n"
+"PO-Revision-Date: 2011-05-17 23:08+0000\n"
+"Last-Translator: Daniel Nylander <yeager@ubuntu.com>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-05-18 06:23+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
+
+#: src/udev-notify.py:21
+msgid "Display verbose output on STDOUT"
+msgstr "Visa informativ utmatning på STANDARD UT"
+
+#: src/udev-notify.py:27
+msgid "Cannot initialize libnotify"
+msgstr "Kan inte initiera libnotify"
+
+#: src/udev-notify.py:32
+msgid "CD-ROM Drive"
+msgstr "Cd-rom-enhet"
+
+#: src/udev-notify.py:41
+msgid "Multimedia Player"
+msgstr "Multimediaspelare"
+
+#: src/udev-notify.py:60 src/udev-notify.py:71 src/udev-notify.py:82
+#: src/udev-notify.py:107 src/udev-notify.py:118
+msgid "USB Storage Device"
+msgstr "USB-lagringsenhet"
+
+#: src/udev-notify.py:93
+msgid "SD/MMC Memory"
+msgstr "SD/MMC-minne"
+
+#: src/udev-notify.py:100
+msgid "Memory Stick"
+msgstr "Memory Stick"
+
+#: src/udev-notify.py:128
+msgid "WiFi Device"
+msgstr "WiFi-enhet"
+
+#: src/udev-notify.py:136
+msgid "WebCam / TV Tuner"
+msgstr "Webbkamera / TV-mottagare"
+
+#: src/udev-notify.py:143
+msgid "Mouse"
+msgstr "Mus"
+
+#: src/udev-notify.py:152
+msgid "Game Controller"
+msgstr "Handkontroll"
+
+#: src/udev-notify.py:161
+msgid "Sound Card"
+msgstr "Ljudkort"
+
+#: src/udev-notify.py:170
+msgid "USB Modem"
+msgstr "USB-modem"
+
+#: src/udev-notify.py:178
+msgid "Modem"
+msgstr "Modem"
+
+#: src/udev-notify.py:186
+msgid "PDA Device"
+msgstr "Handdator"
+
+#: src/udev-notify.py:194
+msgid "Keyboard"
+msgstr "Tangentbord"
+
+#: src/udev-notify.py:203
+msgid "Digital Camera"
+msgstr "Digitalkamera"
+
+#: src/udev-notify.py:211
+msgid "Network Device"
+msgstr "Nätverksenhet"
+
+#: src/udev-notify.py:219
+msgid "USB Network Device"
+msgstr "USB-nätverksenhet"
+
+#: src/udev-notify.py:227
+msgid "USB Device"
+msgstr "USB-enhet"
+
+#: src/udev-notify.py:308
+msgid "Device recognized"
+msgstr "Enhet upptäcktes"
+
+#: src/udev-notify.py:315
+msgid "Device removed"
+msgstr "Enhet frånkopplad"
