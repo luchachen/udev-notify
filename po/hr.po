@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: udev-notify\n"
 "Report-Msgid-Bugs-To: lfu.project@gmail.com\n"
 "POT-Creation-Date: 2011-05-15 13:42+0300\n"
-"PO-Revision-Date: 2011-07-09 09:29+0000\n"
+"PO-Revision-Date: 2011-07-17 08:23+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-10 05:40+0000\n"
-"X-Generator: Launchpad (build 13168)\n"
+"X-Launchpad-Export-Date: 2011-07-18 05:26+0000\n"
+"X-Generator: Launchpad (build 13405)\n"
 "Language: hr\n"
 
 #: src/udev-notify.py:21
 msgid "Display verbose output on STDOUT"
-msgstr "Prikaži verbalan izlaz na STDOUT"
+msgstr "Prikaži izlazne detalje na standardnom izlazu"
 
 #: src/udev-notify.py:27
 msgid "Cannot initialize libnotify"
@@ -32,7 +32,7 @@ msgstr "CD-ROM uređaj"
 
 #: src/udev-notify.py:41
 msgid "Multimedia Player"
-msgstr "Multimedijalni preglednik"
+msgstr "Multimedijski preglednik"
 
 #: src/udev-notify.py:60 src/udev-notify.py:71 src/udev-notify.py:82
 #: src/udev-notify.py:107 src/udev-notify.py:118
