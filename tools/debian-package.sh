@@ -11,7 +11,7 @@ PWD="$(cd ${0%/*}/;pwd)"
 PACKAGE=$1
 VERSION=$2 #версия на пакета - задължително
 DESCRIPTION="Display notifications about newly plugged hardware" #описание на пакета - задължително
-SECTION="USU Packages" #категория на пакета - може да не се пипа
+SECTION="main" #категория на пакета - може да не се пипа
 PRIORITY="optional" #приоритет - може да не се пипа
 MAINTAINER="$3 <$4>" #автор
 DEPENDS="udev, python-notify" #зависимости. имена на пакети отделени със запетайка и интервал: пакет1, пакет2, пакет3
@@ -44,6 +44,6 @@ echo "Homepage: $HOMEPAGE" >> $PWD/../build/debian/DEBIAN/control
 sudo chown -R root:root $PWD/../build/debian
 sudo chmod -R 755 $PWD/../build/debian
 [ -d $PWD/../dist ] || mkdir -p $PWD/../dist
-sudo dpkg-deb --build $PWD/../build/debian $PWD/../dist/$PACKAGE-$VERSION-$ARCHITECTURE.deb
+sudo dpkg-deb --build $PWD/../build/debian $PWD/../dist/"$PACKAGE"_"$VERSION"_"$ARCHITECTURE".deb
 sudo chown -R $USER:$USER $PWD/../build/debian
 cd $DIR

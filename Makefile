@@ -1,6 +1,6 @@
 export SHELL = sh
 PACKAGE = udev-notify
-VERSION = 0.1.2
+VERSION = 0.1.3
 COPYRIGHTYEAR = 2011
 AUTHOR = USU Team
 EMAIL = lfu.project@gmail.com
@@ -23,7 +23,9 @@ debian: translations
 	
 	./tools/debian-package.sh "$(PACKAGE)" "$(VERSION)" "$(AUTHOR)" "$(EMAIL)"
 
-	
+#rpm: debian
+#sudo alien --to-rpm -k --scripts udev-notify_0.1.3_all.deb
+
 pot:
 	[ -d ./po/ ] || mkdir ./po
 	xgettext --default-domain="$(PACKAGE)" --output="po/$(PACKAGE).pot" src/*.py
