@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: udev-notify\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-05-15 13:42+0300\n"
-"PO-Revision-Date: 2011-10-18 21:09+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-10-21 10:17+0000\n"
+"Last-Translator: scania GTi <Unknown>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-10-19 06:25+0000\n"
-"X-Generator: Launchpad (build 14157)\n"
+"X-Launchpad-Export-Date: 2011-10-22 05:30+0000\n"
+"X-Generator: Launchpad (build 14170)\n"
 
 #: src/udev-notify.py:21
 msgid "Display verbose output on STDOUT"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: src/udev-notify.py:32
 msgid "CD-ROM Drive"
-msgstr ""
+msgstr "CD-ROM įrenginys"
 
 #: src/udev-notify.py:41
 msgid "Multimedia Player"
-msgstr ""
+msgstr "Multimedijos grotuvas"
 
 #: src/udev-notify.py:60 src/udev-notify.py:71 src/udev-notify.py:82
 #: src/udev-notify.py:107 src/udev-notify.py:118
@@ -40,15 +40,15 @@ msgstr ""
 
 #: src/udev-notify.py:93
 msgid "SD/MMC Memory"
-msgstr ""
+msgstr "SD/MMC kortelė"
 
 #: src/udev-notify.py:100
 msgid "Memory Stick"
-msgstr ""
+msgstr "Memory Stick atmintinė"
 
 #: src/udev-notify.py:128
 msgid "WiFi Device"
-msgstr ""
+msgstr "WiFi Įrenginys"
 
 #: src/udev-notify.py:136
 msgid "WebCam / TV Tuner"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: src/udev-notify.py:143
 msgid "Mouse"
-msgstr ""
+msgstr "Pelė"
 
 #: src/udev-notify.py:152
 msgid "Game Controller"
@@ -64,15 +64,15 @@ msgstr ""
 
 #: src/udev-notify.py:161
 msgid "Sound Card"
-msgstr ""
+msgstr "Garso plokštė"
 
 #: src/udev-notify.py:170
 msgid "USB Modem"
-msgstr ""
+msgstr "USB Modemas"
 
 #: src/udev-notify.py:178
 msgid "Modem"
-msgstr ""
+msgstr "Modemas"
 
 #: src/udev-notify.py:186
 msgid "PDA Device"
@@ -80,11 +80,11 @@ msgstr ""
 
 #: src/udev-notify.py:194
 msgid "Keyboard"
-msgstr ""
+msgstr "Klaviatūra"
 
 #: src/udev-notify.py:203
 msgid "Digital Camera"
-msgstr ""
+msgstr "Skaitmeninis fotoaparatas"
 
 #: src/udev-notify.py:211
 msgid "Network Device"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: src/udev-notify.py:227
 msgid "USB Device"
-msgstr ""
+msgstr "USB įrenginys"
 
 #: src/udev-notify.py:308
 msgid "Device recognized"
