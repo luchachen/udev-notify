@@ -1,0 +1,107 @@
+# Ukrainian translation for udev-notify
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the udev-notify package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: udev-notify\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-05-15 13:42+0300\n"
+"PO-Revision-Date: 2013-11-20 21:03+0000\n"
+"Last-Translator: Stuartlittle1970@gmail.com <Stuartlittle1970@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-21 05:33+0000\n"
+"X-Generator: Launchpad (build 16831)\n"
+
+#: src/udev-notify.py:21
+msgid "Display verbose output on STDOUT"
+msgstr "Показати детальний вивід STDOUT"
+
+#: src/udev-notify.py:27
+msgid "Cannot initialize libnotify"
+msgstr "Помилка ініціалізації libnotify"
+
+#: src/udev-notify.py:32
+msgid "CD-ROM Drive"
+msgstr "Пристрій CD-ROM"
+
+#: src/udev-notify.py:41
+msgid "Multimedia Player"
+msgstr "Програвач файлів мультимедіа"
+
+#: src/udev-notify.py:60 src/udev-notify.py:71 src/udev-notify.py:82
+#: src/udev-notify.py:107 src/udev-notify.py:118
+msgid "USB Storage Device"
+msgstr "USB накопичувач"
+
+#: src/udev-notify.py:93
+msgid "SD/MMC Memory"
+msgstr "Картка пам’яті SD/MMC"
+
+#: src/udev-notify.py:100
+msgid "Memory Stick"
+msgstr "Картка Memory Stick"
+
+#: src/udev-notify.py:128
+msgid "WiFi Device"
+msgstr "Пристрій WiFi"
+
+#: src/udev-notify.py:136
+msgid "WebCam / TV Tuner"
+msgstr "Веб-камера/ТВ-тюнер"
+
+#: src/udev-notify.py:143
+msgid "Mouse"
+msgstr "Миша"
+
+#: src/udev-notify.py:152
+msgid "Game Controller"
+msgstr "Ігровий контролер"
+
+#: src/udev-notify.py:161
+msgid "Sound Card"
+msgstr "Звукова картка"
+
+#: src/udev-notify.py:170
+msgid "USB Modem"
+msgstr "USB Модем"
+
+#: src/udev-notify.py:178
+msgid "Modem"
+msgstr "Модем"
+
+#: src/udev-notify.py:186
+msgid "PDA Device"
+msgstr "КПК пристрій"
+
+#: src/udev-notify.py:194
+msgid "Keyboard"
+msgstr "Клавіатура"
+
+#: src/udev-notify.py:203
+msgid "Digital Camera"
+msgstr "Цифрова камера"
+
+#: src/udev-notify.py:211
+msgid "Network Device"
+msgstr "Мережевий пристрій"
+
+#: src/udev-notify.py:219
+msgid "USB Network Device"
+msgstr "Мережевий USB-пристрій"
+
+#: src/udev-notify.py:227
+msgid "USB Device"
+msgstr "Пристрій USB"
+
+#: src/udev-notify.py:308
+msgid "Device recognized"
+msgstr "Пристрій під’єднано"
+
+#: src/udev-notify.py:315
+msgid "Device removed"
+msgstr "Пристрій вилучено"
