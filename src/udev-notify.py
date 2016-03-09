@@ -287,6 +287,14 @@ def detect_device(device):
             
             if 'ID_FS_LABEL' in device and 'ID_FS_TYPE' in device:
                 device_name = '%s (%s)' % (device['ID_FS_LABEL'], device['ID_FS_TYPE'])
+
+            if 'ID_VENDOR_ID' in device:
+                device_name += '\nID ' + device['ID_VENDOR_ID'].strip()
+
+            if 'ID_MODEL_ID' in device:
+                device_name += ':' + device['ID_MODEL_ID'].strip()
+            if 'DEVNAME' in device:
+                device_name += '\n' + device['DEVNAME'].strip()
             
             if device_name != '':
                  result['name'] = result['type'] + '\n' + device_name
@@ -300,23 +308,23 @@ context = pyudev.Context()
 monitor = pyudev.Monitor.from_netlink(context)
 
 notification = None
+notification = pynotify.Notification(_('Device dummy'), _('dummy'), _('dummy'))
 for action, device in monitor:
     detected = detect_device(device)
     if detected != None:
         if device['ACTION'] == 'add':
-            notification = pynotify.Notification(
+            notification.update(
                 _('Device recognized')
                 , detected['name']
                 , detected['icon']
             )
-            notification.show()
         elif device['ACTION'] == 'remove':
-            notification = pynotify.Notification(
+            notification.update(
                 _('Device removed')
                 , detected['name']
                 , detected['icon']
             )
-            notification.show()
+        notification.show()
 sys.exit(0)
 
 # TODO: printer, scanner, other types of flash memory, ??

@@ -2,14 +2,12 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Hardware Notifications
-Name[bg]=Хардуерни известявания
 Comment=Displays notification about newly plugged hardware
-Comment[bg]=Показване на известявание при включване на нов хардуер
 Icon=gnome-dev-memory
-Exec=udev-notify
+Exec=/usr/bin/udev-notify
 Terminal=false
 Type=Application
 Categories=
-OnlyShowIn=GNOME;XFCE;KDE;
-
-
+OnlyShowIn=GNOME;XFCE;KDE;Unity;
+AutostartCondition=GNOME3 unless-session gnome
+X-Ubuntu-Gettext-Domain=udev-notify
