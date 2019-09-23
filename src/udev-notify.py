@@ -308,23 +308,24 @@ context = pyudev.Context()
 monitor = pyudev.Monitor.from_netlink(context)
 
 notification = None
-notification = pynotify.Notification(_('Device dummy'), _('dummy'), _('dummy'))
+#notification = pynotify.Notification(_('Device dummy'), _('dummy'), _('dummy'))
 for action, device in monitor:
     detected = detect_device(device)
     if detected != None:
         if device['ACTION'] == 'add':
-            notification.update(
+            notification = pynotify.Notification(
                 _('Device recognized')
                 , detected['name']
                 , detected['icon']
             )
+            notification.show()
         elif device['ACTION'] == 'remove':
-            notification.update(
+            notification = pynotify.Notification(
                 _('Device removed')
                 , detected['name']
                 , detected['icon']
             )
-        notification.show()
+            notification.show()
 sys.exit(0)
 
 # TODO: printer, scanner, other types of flash memory, ??
